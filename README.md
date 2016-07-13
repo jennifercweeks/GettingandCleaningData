@@ -8,7 +8,7 @@ Data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%
 <br>
 The data tidying script "run_analysis.R" assumes you have downloaded and unzipped the data file above in your working directory. <br>
 <br>
-The script "run_analysis.R" will produce two tidy datasets: one containing means and standard deviations of all measured values ("meansandsds.csv"), and one containing averaged means of each value collapsing across subject and activity type ("tidymeans.csv") <br>
+The script "run_analysis.R" will produce two tidy datasets: one containing means and standard deviations of all measured values ("meansandsds.txt"), and one containing averaged means of each value collapsing across subject and activity type ("tidymeans.txt") <br>
 <br>
 Please see the codebook.md in this repository for a description of variables. <br>
 <br>
