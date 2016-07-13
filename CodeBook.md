@@ -1,4 +1,4 @@
-##This is a description of variables found in the tidy datasets "meansandsds.csv" and "tidymeans.csv".
+##This is a description of variables found in the tidy datasets "meansandsds.txt" and "tidymeans.txt".
 ###More information on how the variables were measured and computed can be found in the READme document accompanying the original dataset.
 
 subject
