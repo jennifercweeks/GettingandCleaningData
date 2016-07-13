@@ -51,5 +51,5 @@ tidymeans <- select(tidymeans, -subject, -activity)
 tidymeans <- select(tidymeans, subject = Group.1, activity = Group.2, timebodyaccelerometrymeanx:fouriertransformedbodygyroscopyjerkmagnitudemean) 
 
 ##Save meansandsds & tidymeans dataframes as csv files
-write.csv(meansandsds, file = "meansandsds.csv",row.names = FALSE)
-write.csv(tidymeans, file = "tidymeans.csv",row.names = FALSE)
+write.table(meansandsds, file = "meansandsds.txt",row.names = FALSE)
+write.table(tidymeans, file = "tidymeans.txt",row.names = FALSE)
